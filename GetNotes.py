@@ -57,7 +57,7 @@ try:
 except NoSuchElementException:
     assert 0, "can't find email"
 password.clear()
-password.send_keys("543212")
+password.send_keys("***") # write your own password here
 # submit
 browser.find_element_by_id("loginbtn").click()
 time.sleep(2)
